@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {Image} from './Image';
 
 export class ImagesContainer extends React.Component {
@@ -10,9 +11,10 @@ export class ImagesContainer extends React.Component {
         });
 
         return(
-            <div>
-                {images}
-            </div>
+            <React.Fragment>
+            {images}
+            </React.Fragment>
+                
         );
     };
 }
