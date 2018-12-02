@@ -1,7 +1,10 @@
 import React from 'react';
+import {SearchBar} from './searchBar/SearchBar';
 
 export const App = () => {
     return (
-        <div>App Component</div>
+        <div>
+            <SearchBar />
+        </div>
     );
 };
